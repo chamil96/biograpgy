@@ -69,15 +69,20 @@ table {
 
 
 /*---------------------------gallery-------------------------*/
-
-
+.gallery{
+		max-height: 1069px;
+    max-width: 2000px;
+}
+.gallery-section{
+	
+}
 /*---------------------------contact-------------------------*/
 
 
 /*----------------------------all----------------------------*/
 .banner {
   display: inline-block;
-  background-image: url(file:///Users/chrishamilton/Desktop/Website%20Project/lib/img/2010_Charlotte_Skyline.jpg);
+  background-image: url("file:///Users/chrishamilton/Documents/R2H/biography/lib/img/2010_Charlotte_Skyline.jpg");
   width: 100%;
   height: 300px;
   text-align: center;
