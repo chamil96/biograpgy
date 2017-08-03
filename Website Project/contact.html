@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+	<link href="lib/css/styles.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Viga" rel="stylesheet">
+</head>
+<body class="body-mods">
+	<div class="container">
+		<header class="banner">
+			<!-- <img src="lib/img/2010_Charlotte_Skyline.jpg" alt="Charlotte skyline"> -->
+			<h1>Contact Me</h1>
+			<nav class="navbar">
+				<div style="margin-left: 2em">
+					<a href="file:///Users/chrishamilton/Desktop/Website%20Project/index.html">
+					<ul>
+						<li>Home</li>
+						<li style="list-style: none; display: inline"></li>
+						<li>Bio</li>
+						<li style="list-style: none; display: inline"></li>
+						<li>Resume</li>
+						<li style="list-style: none; display: inline"></li>
+						<li>CodePen</li>
+						<li style="list-style: none; display: inline"></li>
+						<li>Gallery</li>
+						<li style="list-style: none; display: inline"></li>
+						<li>Contact</li>
+					</ul></a>
+				</div>
+			</nav>
+		</header>
+	</div>
+	<h1>Contact Me</h1><!--contact form-->
+	<form action="contact.html" class="formsheet" method="get">
+		<div>
+			<label for="firstname">First Name</label> <input name="firstname" type="text" value=" ">
+		</div>
+		<div>
+			<label for="lastname">Last Name</label> <input name="lastname" type="text" value=" ">
+		</div>
+		<div>
+			<label for="email">Email ex. billybob@gmail.com</label> <input name="email" type="email" value=" ">
+		</div>
+		<div>
+			<label for="company">Company</label> <input name="company" type="text" value=" ">
+		</div>
+		<div>
+			<label for="phone">Phone Number ex.(xxx)-xxx-xxxx</label> <input name="phone" pattern="^d{3}-\d{3}-\d{4}$" type="tel" value=" ">
+		</div><input type="submit" value="Save">
+	</form>
+</body>
+</html>
