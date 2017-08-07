@@ -6,6 +6,8 @@
 	<link href="lib/css/styles.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Viga" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
 </head>
 <body class="body-mods">
 	<div class="container">
@@ -37,13 +39,13 @@
 			</div>
 		</header>
 	</div>
-	<h1>Contact Me</h1><!--contact form-->
-	<form action="contact.html" class="formsheet" method="get">
+	<h1 class="contact-header">Contact Me</h1><!--contact form-->
+	<form class="form" action="contact.html" method="get" onsubmit="return validationFailure">
 		<div>
-			<label for="firstname">First Name</label> <input name="firstname" type="text" value=" ">
+			<label for="firstname" id="firstName">First Name</label> <input name="firstname" type="text" value=" ">
 		</div>
 		<div>
-			<label for="lastname">Last Name</label> <input name="lastname" type="text" value=" ">
+			<label for="lastname" id="lastName">Last Name</label> <input name="lastname" type="text" value=" ">
 		</div>
 		<div>
 			<label for="email">Email ex. billybob@gmail.com</label> <input name="email" type="email" value=" ">
@@ -52,8 +54,14 @@
 			<label for="company">Company</label> <input name="company" type="text" value=" ">
 		</div>
 		<div>
-			<label for="phone">Phone Number ex.(xxx)-xxx-xxxx</label> <input name="phone" pattern="^d{3}-\d{3}-\d{4}$" type="tel" value=" ">
-		</div><input type="submit" value="Save">
+			<!-- <label for="phone">Phone Number ex.(xxx)-xxx-xxxx</label> <input name="phone" pattern="^d{3}-\d{3}-\d{4}$" type="tel" value=" "> -->
+		</div>
+		<textarea class="commentsection" name="comment" rows="8" cols="70">Leave a comment!</textarea>
+		<input type="submit" value="Save">
 	</form>
+	<div class="footer-section">
+		<p>Here are some links to my social media!</p><a href="https://www.linkedin.com/in/christopher-hamilton-26b4b4146/"><img alt="Linked-In" class="Foot-img" src="lib/img/LinkedIn-Logo-500x500.png"></a> <a href="https://www.instagram.com/chamilton_96/"><img alt="Instagram" class="Foot-img" src="lib/img/black-color-instagram-icon-png.png"></a>
+		<h6>All images used are for educational purposes only. &copy;Chris Hamilton 2017</h6>
+	</div>
 </body>
 </html>

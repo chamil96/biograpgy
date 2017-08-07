@@ -58,26 +58,111 @@ table {
   padding-bottom: 50px;
 }
 
+.brief-descript{
+	font-size: 25px;
+	float: left;
+	padding: 16px;
+	border: solid;
+	border-bottom-left-radius: 24px;
+	border-top-right-radius: 24px;
+	border-style: double;
+}
+
+.brief-descript a{
+	text-decoration: none;
+	color: white;
+}
+
 
 /*---------------------------biography-----------------------*/
-
+.bio-main h2{
+	font-size: 1.25em;
+}
+.bio-main p{
+	font-size: 1em;
+	padding: 16px;
+}
 
 /*---------------------------resume--------------------------*/
+.resume-header{
+	text-align: center;
+}
 
+.resume-header h1{
+	font-size: 3em;
+}
 
+.resume-header h2{
+	font-size: 1.25em;
+}
+
+.resume-content{
+	padding: 25px;
+	border: solid;
+}
+
+.resume-content h2{
+	font-size: 2em;
+}
+
+.resume-content p{
+	font-size: 1.25em;
+	margin-top: 8px;
+}
+
+.resume-content li{
+	font-size: 1.25em;
+	margin-top: 8px;
+}
 /*---------------------------codepen-------------------------*/
+#codepen-title{
+	text-align: center;
+	font-size: 2em;
+}
 
+.codepen{
+	text-align: center;
+	font-size: 1.25em;
+}
+
+.codepen a{
+	text-decoration: none;
+	color: darkgoldenrod;
+}
 
 /*---------------------------gallery-------------------------*/
-.gallery{
-		max-height: 1069px;
-    max-width: 2000px;
-}
-.gallery-section{
-	
-}
-/*---------------------------contact-------------------------*/
 
+.gallery {
+	display: block;
+	width: 100%;
+}
+
+.gallery-table {
+	width: 200px;
+	float: left;
+	margin: 60px;
+	text-align: center;
+}
+
+.footer-section-gallery{
+	clear: both;
+}
+
+.Foot-img-gallery{
+		height: 50px;
+    width: 50px;
+    float: none;
+    padding-left: 6px;
+}
+
+/*---------------------------contact-------------------------*/
+.contact-header{
+	font-size: 1.25em;
+}
+
+.form label{
+	font-size: 15px;
+}
 
 /*----------------------------all----------------------------*/
 .banner {
@@ -94,8 +179,11 @@ table {
 }
 
 .banner h1{
-  font-size: 5rem;
+  font-size: 4rem;
   padding-top: 100px;
+	font-family: 'Bungee Inline', cursive;
+	color: maroon;;
+
 }
 
 .navbar{
@@ -112,6 +200,7 @@ table {
   color: white;
   text-shadow: 10px 5px 1px black;
   font-size: 1.75em;
+	font-family: 'Russo One', sans-serif;
 }
 
 .main-content{
@@ -129,12 +218,48 @@ table {
   margin: 25px;
 }
 
+.footer-section{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	clear: both;
+}
+
+.footer-section p{
+	font-size: 10.5px;
+}
+
+.footer-section h6{
+	font-size: 10.5px;
+}
+
+.Foot-img{
+		height: 20px;
+    width: 20px;
+    float: none;
+    padding-left: 6px;
+}
+
+
+
 body{
-  line-height: 1;
   background-color: gainsboro;
 }
-/*------------------banner-----------------------*/
 
+figcaption{
+	font-size: 1.25em;
+}
 
-
-/*--------------------navbar----------------------*/
+/*------------media queries--------------*/
+@media (max-width: 890px){
+	.banner h1{
+		font-size: 2rem;
+		padding-top: 46px;
+	}
+	.commentsection{
+		width: 350px;
+	}
+}
