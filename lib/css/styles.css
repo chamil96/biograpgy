@@ -167,7 +167,7 @@ table {
 /*----------------------------all----------------------------*/
 .banner {
   display: inline-block;
-  background-image: url("file:///Users/chrishamilton/Documents/R2H/biography/lib/img/2010_Charlotte_Skyline.jpg");
+  background: lightslategray;;
   width: 100%;
   height: 300px;
   text-align: center;
